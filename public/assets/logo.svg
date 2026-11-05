@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="svBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset=".55" stop-color="#5b21b6"/>
+      <stop offset="1" stop-color="#2e1065"/>
+    </linearGradient>
+    <linearGradient id="svPaw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".6" stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="svCross" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#c026d3"/>
+    </linearGradient>
+    <radialGradient id="svGlow" cx=".5" cy=".42" r=".55">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="svShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#14052e" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#svBg)"/>
+  <circle cx="256" cy="236" r="230" fill="url(#svGlow)"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#c4b5fd" stroke-opacity=".5" stroke-width="9" stroke-dasharray="1003.5 228" stroke-dashoffset="-421.9" stroke-linecap="round"/>
+  <g filter="url(#svShadow)" fill="url(#svPaw)">
+    <ellipse cx="152" cy="214" rx="36" ry="46" transform="rotate(-22 152 214)"/>
+    <ellipse cx="214" cy="146" rx="38" ry="50" transform="rotate(-8 214 146)"/>
+    <ellipse cx="298" cy="146" rx="38" ry="50" transform="rotate(8 298 146)"/>
+    <ellipse cx="360" cy="214" rx="36" ry="46" transform="rotate(22 360 214)"/>
+    <path d="M256 236c-52 0-112 60-122 112-8 40 18 66 54 64 28-2 44-16 68-16s40 14 68 16c36 2 62-24 54-64-10-52-70-112-122-112Z"/>
+  </g>
+  <path d="M244 290h24v28h28v24h-28v28h-24v-28h-28v-24h28z" fill="url(#svCross)"/>
+  <path fill="#ddd6fe" d="M410 84c4 20 10 26 30 30-20 4-26 10-30 30-4-20-10-26-30-30 20-4 26-10 30-30Z"/>
+</svg>
