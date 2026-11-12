@@ -1,5 +1,5 @@
 // SanoVet — Service Worker (PWA, funcionamiento sin conexión)
-const VERSION = 'sanovet-v1.0.3';
+const VERSION = 'sanovet-v1.1.0';
 const SDK = 'https://www.gstatic.com/firebasejs/10.14.1/';
 const VIEWS = ['admin', 'agenda', 'card', 'cash', 'clients', 'dashboard', 'inventory', 'invoices', 'kiosk', 'loyalty', 'orders', 'pets', 'pos', 'purchases', 'reports', 'sala', 'search', 'settings', 'shop'];
 const SHELL = [
